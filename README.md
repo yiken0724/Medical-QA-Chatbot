@@ -1,6 +1,4 @@
-# MedGrounded: Fine-Tuned Flan-T5 with Retrieval-Augmented Generation for Medical Q&A
-
-> CS425 Group 4 — Singapore Management University
+# Fine-Tuned Flan-T5 with Retrieval-Augmented Generation for Medical Q&A
 
 A medical question-answering chatbot built by fine-tuning Google's **Flan-T5-Base** on a large doctor-patient dialogue corpus, augmented with **Retrieval-Augmented Generation (RAG)** grounded in authoritative medical sources. The project investigates how LoRA fine-tuning and external retrieval each contribute to improving the factual accuracy and quality of AI-generated medical responses.
 
@@ -165,17 +163,6 @@ Ensure the `medical_qa` processed dataset is available in the project root and t
 
 ### Evaluation
 Run `evaluation.ipynb` to compute ROUGE-L and BERTScore metrics across all model configurations. Run `inference-final.ipynb` for qualitative sample generation and comparison.
-
----
-
-## Team
-
-| Name | Role |
-|------|------|
-| Loh Sze Ern Cheryl | Fine-tuning with LoRA, Evaluation |
-| Goh Jhung Kai Klement | Retrieval Grounding, Evaluation |
-| Tang Wen Chung, Nicolas | Fine-tuning with LoRA, Evaluation |
-| Choo Yi Ken | Data Preprocessing |
 
 ---
 
